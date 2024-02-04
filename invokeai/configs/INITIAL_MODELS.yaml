@@ -7,7 +7,7 @@ sd-1/main/stable-diffusion-v1-5:
 sd-1/main/stable-diffusion-v1-5-inpainting:
    description: RunwayML SD 1.5 model optimized for inpainting, diffusers version (4.27 GB)
    repo_id: runwayml/stable-diffusion-inpainting
-   recommended: True
+   recommended: False
 sd-2/main/stable-diffusion-2-1:
    description: Stable Diffusion version 2.1 diffusers model, trained on 768 pixel images (5.21 GB)
    repo_id: stabilityai/stable-diffusion-2-1
@@ -19,7 +19,7 @@ sd-2/main/stable-diffusion-2-inpainting:
 sdxl/main/stable-diffusion-xl-base-1-0:
    description: Stable Diffusion XL base model (12 GB)
    repo_id: stabilityai/stable-diffusion-xl-base-1.0
-   recommended: True
+   recommended: False
 sdxl-refiner/main/stable-diffusion-xl-refiner-1-0:
    description: Stable Diffusion XL refiner model (12 GB)
    repo_id: stabilityai/stable-diffusion-xl-refiner-1.0
@@ -27,7 +27,7 @@ sdxl-refiner/main/stable-diffusion-xl-refiner-1-0:
 sdxl/vae/sdxl-1-0-vae-fix:
    description: Fine tuned version of the SDXL-1.0 VAE
    repo_id: madebyollin/sdxl-vae-fp16-fix
-   recommended: True
+   recommended: False
 sd-1/main/Analog-Diffusion:
    description: An SD-1.5 model trained on diverse analog photographs (2.13 GB)
    repo_id: wavymulder/Analog-Diffusion
@@ -63,65 +63,85 @@ sd-1/main/trinart_stable_diffusion_v2:
 sd-1/controlnet/qrcode_monster:
    repo_id: monster-labs/control_v1p_sd15_qrcode_monster
    subfolder: v2
+   recommended: False
 sd-1/controlnet/canny:
    repo_id: lllyasviel/control_v11p_sd15_canny
-   recommended: True
+   recommended: False
 sd-1/controlnet/inpaint:
    repo_id: lllyasviel/control_v11p_sd15_inpaint
+   recommended: False
 sd-1/controlnet/mlsd:
    repo_id: lllyasviel/control_v11p_sd15_mlsd
+   recommended: False
 sd-1/controlnet/depth:
    repo_id: lllyasviel/control_v11f1p_sd15_depth
-   recommended: True
+   recommended: False
 sd-1/controlnet/normal_bae:
    repo_id: lllyasviel/control_v11p_sd15_normalbae
+   recommended: False
 sd-1/controlnet/seg:
    repo_id: lllyasviel/control_v11p_sd15_seg
+   recommended: False
 sd-1/controlnet/lineart:
    repo_id: lllyasviel/control_v11p_sd15_lineart
-   recommended: True
+   recommended: False
 sd-1/controlnet/lineart_anime:
    repo_id: lllyasviel/control_v11p_sd15s2_lineart_anime
+   recommended: False
 sd-1/controlnet/openpose:
    repo_id: lllyasviel/control_v11p_sd15_openpose
-   recommended: True
+   recommended: False
 sd-1/controlnet/scribble:
    repo_id: lllyasviel/control_v11p_sd15_scribble
    recommended: False
 sd-1/controlnet/softedge:
    repo_id: lllyasviel/control_v11p_sd15_softedge
+   recommended: False
 sd-1/controlnet/shuffle:
    repo_id: lllyasviel/control_v11e_sd15_shuffle
+   recommended: False
 sd-1/controlnet/tile:
    repo_id: lllyasviel/control_v11f1e_sd15_tile
+   recommended: False
 sd-1/controlnet/ip2p:
    repo_id: lllyasviel/control_v11e_sd15_ip2p
+   recommended: False
 sd-1/t2i_adapter/canny-sd15:
    repo_id: TencentARC/t2iadapter_canny_sd15v2
+   recommended: False
 sd-1/t2i_adapter/sketch-sd15:
    repo_id: TencentARC/t2iadapter_sketch_sd15v2
+   recommended: False
 sd-1/t2i_adapter/depth-sd15:
    repo_id: TencentARC/t2iadapter_depth_sd15v2
+   recommended: False
 sd-1/t2i_adapter/zoedepth-sd15:
    repo_id: TencentARC/t2iadapter_zoedepth_sd15v1
+   recommended: False
 sdxl/t2i_adapter/canny-sdxl:
    repo_id: TencentARC/t2i-adapter-canny-sdxl-1.0
+   recommended: False
 sdxl/t2i_adapter/zoedepth-sdxl:
    repo_id: TencentARC/t2i-adapter-depth-zoe-sdxl-1.0
+   recommended: False
 sdxl/t2i_adapter/lineart-sdxl:
    repo_id: TencentARC/t2i-adapter-lineart-sdxl-1.0
+   recommended: False
 sdxl/t2i_adapter/sketch-sdxl:
    repo_id: TencentARC/t2i-adapter-sketch-sdxl-1.0
+   recommended: False
 sd-1/embedding/EasyNegative:
    path: https://huggingface.co/embed/EasyNegative/resolve/main/EasyNegative.safetensors
-   recommended: True
+   recommended: False
 sd-1/embedding/ahx-beta-453407d:
    repo_id: sd-concepts-library/ahx-beta-453407d
+   recommended: False
 sd-1/lora/Ink scenery:
    path: https://civitai.com/api/download/models/83390
+   recommended: False
 sd-1/ip_adapter/ip_adapter_sd15:
    repo_id: InvokeAI/ip_adapter_sd15
-   recommended: True
+   recommended: False
    requires:
       - InvokeAI/ip_adapter_sd_image_encoder
    description: IP-Adapter for SD 1.5 models
