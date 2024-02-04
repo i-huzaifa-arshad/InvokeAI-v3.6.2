@@ -1,0 +1,14 @@
+InvokeAI==3.6.2
+jedi==0.19.1
+kaleido
+cohere
+openai
+tiktoken
+pandas==2.1.3
+fsspec==2023.6.0
+google-auth==2.17.3
+requests==2.31.0
+pyarrow==14.0.2
+anyio==3.7.1
+absl-py==1.4.0
+typing-extensions==4.5.0
