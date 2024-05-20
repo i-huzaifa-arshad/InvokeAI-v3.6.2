@@ -12,3 +12,4 @@ pyarrow==14.0.2
 anyio==3.7.1
 absl-py==1.4.0
 typing-extensions==4.5.0
+pyngrok
